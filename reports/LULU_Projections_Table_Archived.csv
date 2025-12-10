@@ -1,0 +1,19 @@
+Year,Case,Revenue Growth (%),EBIT Growth (%),Net Income Growth (%),Free Cash Flow Growth (%),Rationale
+FY2026,Base,5.2,-4.5,-5.0,-2.0,Revenue decelerates as Americas maturity offsets China growth; EBIT contracts due to estimated $240M tariff impact and inventory clearing.
+FY2026,Bear,0.5,-18.0,-22.0,-12.0,Americas comps turn deeply negative while inventory overhang forces heavy markdowns; tariffs severely impact gross margins without mitigation.
+FY2026,Bull,11.5,8.0,10.0,8.0,International growth accelerates to 30%+; effective supply chain pivots mitigate tariff impacts allowing margin preservation.
+FY2027,Base,8.5,14.0,15.0,12.0,Product refresh in Spring 2026 stabilizes Americas traffic; margins recover as tariff headwinds normalize and inventory aligns with sales.
+FY2027,Bear,2.0,-2.0,-3.0,2.0,New product launches fail to reignite US interest; competition from dupes erodes pricing power permanently compressing margins.
+FY2027,Bull,13.0,18.0,20.0,18.0,Successful scaling of Men's category and Americas product refresh drives double-digit top-line resurgence; operational leverage returns.
+FY2028,Base,7.0,8.0,9.5,8.5,Steady state achieved with China maturing to sustainable growth; buybacks support EPS growth slightly above operating income.
+FY2028,Bear,1.0,-1.5,1.0,-2.0,China growth slows rapidly due to geopolitical friction; US market remains stagnant requiring higher marketing spend to hold share.
+FY2028,Bull,11.0,13.0,15.0,14.0,International expansion beyond China (Europe/APAC) takes hold; gross margins expand to 60% on DTC mix shift.
+FY2029,Base,6.0,6.5,8.0,7.0,Growth normalizes to mid-single digits driven by global footprint expansion; SG&A leverage balances slight gross margin pressure.
+FY2029,Bear,0.5,-3.0,-2.0,-4.0,Market saturation reached globally; cost structure deleverages as fixed costs outpace nominal revenue growth.
+FY2029,Bull,10.0,11.0,12.5,11.0,Men's category reaches 35% of revenue mix; continued innovation sustains premium pricing despite broader market deflation.
+FY2030,Base,5.0,5.0,6.5,5.5,Business reflects mature global retailer profile with cash flow prioritizing shareholder returns over aggressive capex.
+FY2030,Bear,0.0,-4.0,-5.0,-5.0,Deflationary pressure and lack of innovation turn Lululemon into a legacy brand with shrinking profitability.
+FY2030,Bull,9.0,10.0,11.0,10.0,Sustained brand heat allows for expansion into adjacent lifestyle categories; operating margins hit long-term peak.
+TV,Base,3.0,3.0,3.0,3.0,Terminal growth aligns with long-term global GDP and inflation expectations for a premium consumer discretionary staple.
+TV,Bear,1.0,1.0,1.0,2.0,Terminal growth assumes stagnation and loss of market share to emerging competitors in a fragmented sector.
+TV,Bull,4.5,4.5,4.5,4.0,Terminal growth reflects enduring brand equity and successful category expansion allowing above-GDP performance.

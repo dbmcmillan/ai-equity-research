@@ -1,0 +1,17 @@
+{
+    "Bear": {
+        "Enterprise Value": 7788658797.056115,
+        "Equity Value": 6267847797.056115,
+        "Fair Stock Price": 120.73135850050237
+    },
+    "Base": {
+        "Enterprise Value": 10896429771.147135,
+        "Equity Value": 9375618771.147135,
+        "Fair Stock Price": 180.5932798105037
+    },
+    "Bull": {
+        "Enterprise Value": 15579744405.734568,
+        "Equity Value": 14058933405.734568,
+        "Fair Stock Price": 270.80334176902676
+    }
+}

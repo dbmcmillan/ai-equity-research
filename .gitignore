@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables (contains API keys!)
+.env
+.env.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Checkpoints and temporary files
+checkpoints/
+*.tmp
+
+# Reports (PDFs/Word docs are large - optionally keep some)
+reports/*.pdf
+reports/*.docx
+# But DO keep CSV reports (for now excluded)
+reports/*.csv
+reports/*.json
+reports/*.md
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks (if you add them later)
+.ipynb_checkpoints/
+*.ipynb
+

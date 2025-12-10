@@ -1,0 +1,19 @@
+Year,Case,Revenue Growth (%),EBIT Growth (%),Net Income Growth (%),Free Cash Flow Growth (%),Rationale
+2025,Bear,-7.0,-20.0,-125.0,-25.0,Q4 softness persists; tariffs compress margins; HEYDUDE demand weak; FCF declines but less volatile than GAAP NI.
+2025,Base,-5.0,-14.0,-110.0,-20.0,Management guides -8% Q4; impairment drives optical NI collapse; underlying FCF hurt but still resilient.
+2025,Bull,-3.0,-9.0,-100.0,-10.0,International strength offsets domestic weakness; holiday sell-through improves; gross margin pressure moderates.
+2026,Bear,-2.0,-3.0,120.0,0.0,Stabilization but no real recovery; HEYDUDE remains weak; cost cuts offset some tariff drag; FCF bottoms out but stops falling.
+2026,Base,2.0,7.0,400.0,7.0,Return to normalized profitability; cost savings (~$100M) lift margins; modest FCF rebound supported by better working capital.
+2026,Bull,4.5,12.0,500.0,12.0,Successful HEYDUDE repositioning; stronger Intl growth; supply chain efficiencies begin to lift cash flow meaningfully.
+2027,Bear,-1.0,-1.0,4.0,3.0,US clog saturation weighs; limited product innovation; stable but uninspiring cash generation.
+2027,Base,4.0,5.0,7.0,7.0,International + sandals fuel steady growth; deleveraging improves earnings; solid mid-single-digit FCF growth.
+2027,Bull,7.0,10.0,12.0,9.0,New product families succeed; DTC mix enhances margins; HEYDUDE contributes meaningfully again.
+2028,Bear,0.5,1.0,2.0,1.5,Mature brand dynamics; higher marketing spend; FCF growth weak but positive.
+2028,Base,4.5,5.0,6.0,5.0,Healthy global expansion; innovation cycles support ASPs; efficient inventory supports FCF.
+2028,Bull,8.0,10.0,11.0,10.0,Brand momentum strong; digital penetration >40%; operating leverage drives double-digit cash growth.
+2029,Bear,1.0,1.0,2.0,2.0,Fashion cycle cools; stable but limited growth; minimal operating leverage.
+2029,Base,3.5,4.0,5.0,4.0,Long-run growth aligns with footwear CAGR; robust recurring cash flows.
+2029,Bull,6.0,8.0,10.0,8.0,Emerging markets + new categories sustain mid-single-digit revenue and high FCF conversion.
+TV,Bear,1.0,1.0,1.0,1.0,Terminal case assumes modest GDP-like growth for a durable but mature brand.
+TV,Base,2.5,2.5,2.5,2.5,Mature stable cash generator with predictable expansion.
+TV,Bull,3.5,3.5,3.5,3.5,Enduring global brand with continued category expansion potential.

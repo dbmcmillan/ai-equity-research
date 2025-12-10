@@ -1,0 +1,19 @@
+Year,Case,Revenue Growth (%),EBIT Growth (%),Net Income Growth (%),Free Cash Flow Growth (%),Rationale
+2025,Bear,25.5,35.0,30.0,15.0,Macro headwinds persist lengthening sales cycles; high SBC prevents material GAAP loss reduction despite revenue growth.
+2025,Base,27.5,85.0,80.0,45.0,Strong Q3 momentum and enterprise expansion drive top-line; operational leverage significantly narrows GAAP losses toward breakeven.
+2025,Bull,30.0,110.0,105.0,60.0,AI inference demand via Workers platform accelerates revenue beat; premium product mix flips GAAP EBIT positive earlier than guided.
+2026,Bear,20.0,25.0,20.0,10.0,Competition from hyperscalers limits pricing power; sustained high capex for AI infrastructure dampens FCF expansion.
+2026,Base,24.5,600.0,500.0,28.0,Continued enterprise consolidation onto Cloudflare platform; GAAP profitability achieved as revenue scales over relatively fixed network costs.
+2026,Bull,29.0,250.0,250.0,40.0,Rapid adoption of 'Connectivity Cloud' for AI workloads; gross margin expansion drives massive earnings inflection.
+2027,Bear,16.0,30.0,30.0,8.0,Market saturation in core CDN services; inability to fully monetize AI investments leads to margin stagnation.
+2027,Base,22.0,50.0,55.0,25.0,Maturation of SASE and R2 storage products supports sustained 20%+ growth; FCF margins stabilize as capital intensity normalizes.
+2027,Bull,27.0,60.0,65.0,35.0,Dominance in edge AI inference captures significant market share from centralized clouds; high operating leverage fuels earnings surge.
+2028,Bear,14.0,20.0,20.0,8.0,Growth slows to low teens as large customer acquisition creates diminishing returns; structural unprofitability on a GAAP basis persists.
+2028,Base,20.0,35.0,40.0,20.0,Approaching $5B revenue target (delayed vs management goal); steady compounding of FCF as network utilization optimizes.
+2028,Bull,25.0,45.0,50.0,30.0,Surpasses $5B revenue target early driven by widespread enterprise reliance on Zero Trust and Edge Compute; robust FCF generation.
+2029,Bear,12.0,15.0,15.0,6.0,Legacy product commoditization outweighs new product uptake; cash flow growth tracks slowly with revenue.
+2029,Base,18.0,25.0,28.0,18.0,Business matures into a diversified internet utility; profit growth outpaces revenue growth due to disciplined expense management.
+2029,Bull,22.0,35.0,35.0,25.0,Expansion into new TAMs (e.g. deeper public sector/DoD penetration) sustains hyper-growth; becomes a primary alternative to hyperscalers.
+TV,Bear,2.0,2.0,2.0,2.0,Terminal growth assumes inflationary floor; company struggles to maintain competitive differentiation long-term.
+TV,Base,3.5,3.5,3.5,3.5,Terminal growth reflects status as critical internet infrastructure provider with pricing power matching global GDP+.
+TV,Bull,4.5,4.5,4.5,4.5,Terminal growth assumes sustained leadership in next-gen compute and security; commanding premium pricing power.
