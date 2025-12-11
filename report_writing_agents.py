@@ -5,7 +5,6 @@ from google.genai import types
 from dotenv import load_dotenv
 from datetime import date
 
-from regex import T
 load_dotenv()
 # Create the client using your API key from .env
 client = genai.Client(api_key=os.getenv("GENAI_API_KEY"))
@@ -43,7 +42,7 @@ def introduction_agent(summary_text_10K, summary_text_10Q, summary_text_earnings
 {valuation_metrics}
 -- Important Stock Metrics --
 {important_stock_metrics}
--- Additional Analyst Notes --
+-- Additional Analyst Notes: The analysts' core thesis is found at the start of these notes, and should thread through the entire report. --
 {additional_notes}
 Format the report in markdown format with appropriate headings and subheadings. Ensure clarity and professionalism throughout the report. Explain your reasoning and analysis in detail.
 """
@@ -85,7 +84,7 @@ def industry_investment_agent(summary_text_10K, summary_text_10Q, summary_text_e
 {valuation_metrics}
 -- Important Stock Metrics --
 {important_stock_metrics}
--- Additional Analyst Notes --
+-- Additional Analyst Notes. The analysts' core thesis is found at the start of these notes, and should thread through the entire report. --
 {additional_notes}
 -- First Two Sections --
 {first_two_sections}
@@ -102,7 +101,7 @@ Format the report in markdown format with appropriate headings and subheadings. 
 
     return response.text.strip() # type: ignore
 
-def financials_risks_agent(summary_text_10K, summary_text_10Q, summary_text_earnings, financials_summary, drivers_summary, projections_table, valuation_metrics, important_stock_metrics, additional_notes, first_two_sections, second_two_sections, sensitivity_table_str):
+def financials_risks_agent(summary_text_10K, summary_text_10Q, summary_text_earnings, financials_summary, drivers_summary, projections_table, valuation_metrics, important_stock_metrics, additional_notes, first_two_sections, second_two_sections, sensitivity_table_str, forecast_text):
     """
     Creates an introduction to an equity research report based on summaries of 10K, 10Q, earnings call, financial statements, and projections.
     """
@@ -131,7 +130,7 @@ def financials_risks_agent(summary_text_10K, summary_text_10Q, summary_text_earn
 {valuation_metrics}
 -- Important Stock Metrics --
 {important_stock_metrics}
--- Additional Analyst Notes --
+-- Additional Analyst Notes. The analysts' core thesis is found at the start of these notes, and should thread through the entire report. --
 {additional_notes}
 -- First Two Sections --
 {first_two_sections}
@@ -139,6 +138,8 @@ def financials_risks_agent(summary_text_10K, summary_text_10Q, summary_text_earn
 {second_two_sections}
 -- Include this sensitivity table for the stock valuation. Format the values within the table as currency in dollars, and return the table in markdown format --
 {sensitivity_table_str}
+-- Include this forecast table for Revenue, EBIT, Net Income, and Free Cash Flow for our base case scenario. Format the values within the table as currency in dollars, and return the table in markdown format --
+{forecast_text}
 Format the report in markdown format with appropriate headings and subheadings. Ensure clarity and professionalism throughout the report. Explain your reasoning and analysis in detail. Return only the sections you were instructed to write, without including the previously written sections.
 
 """
@@ -181,7 +182,7 @@ def esg_appendices_agent(summary_text_10K, summary_text_10Q, summary_text_earnin
 {valuation_metrics}
 -- Important Stock Metrics --
 {important_stock_metrics}
--- Additional Analyst Notes --
+-- Additional Analyst Notes. The analysts' core thesis is found at the start of these notes, and should thread through the entire report. --
 {additional_notes}
 -- First and Second Sections --
 {first_two_sections}
@@ -202,7 +203,7 @@ Format the report in markdown format with appropriate headings and subheadings. 
 
 
 
-def master_agent(first_two_sections, second_two_sections, third_two_sections, remaining_sections, today_date):
+def master_agent(first_two_sections, second_two_sections, third_two_sections, remaining_sections, additional_notes, today_date):
     """
     Creates an introduction to an equity research report based on summaries of 10K, 10Q, earnings call, financial statements, and projections.
     """
@@ -212,7 +213,8 @@ def master_agent(first_two_sections, second_two_sections, third_two_sections, re
 
     prompt = f"""You are the Director of Equity Research for a large asset management company. Your senior equity research team has put together a comprehensive equity research report on a particular stock, split into four main sections plus appendices, which have been provided.
     Your job is to function as the Editor-in-Chief and combine all the sections into a single cohesive report. Ensure smooth transitions between sections, consistent tone and style, and overall clarity and professionalism. Do not make any major changes to the content of each section, but feel free to make minor edits for flow and coherence. 
-    Ensure that the investment thesis is clear and well-supported throughout the report. Remove any unnecessary repetition or redundancy, but do not delete any unique information or abbreviate any tables you were provided. Format the final report in markdown format with appropriate headings and subheadings.
+    Ensure that the investment thesis is clear and well-supported throughout the report. Remove any unnecessary repetition, redundancy, and rephrase anything that sound like unnatural "LLM-speak", but do not delete any unique information or abbreviate any tables you were provided. Ensure that that the final report communicates the thesis (provided at the beginning of additional analyst notes) FORCEFULLY.
+    Format the final report in markdown format with appropriate headings and subheadings.
 -- First and Second Sections --
 {first_two_sections}
 -- Third and Fourth Sections --
@@ -221,6 +223,7 @@ def master_agent(first_two_sections, second_two_sections, third_two_sections, re
 {third_two_sections}
 -- 7th, 8th, and 9th Sections --
 {remaining_sections}
+--{additional_notes}--
 Take note of today's date at the beginning of the report: {today_date}. Format the report in markdown format with appropriate headings and subheadings.
 """
 

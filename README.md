@@ -174,11 +174,11 @@ This project was developed as part of my transition from business intelligence/d
 
 **David McMillan**
 - Email: dbmcmillan@gmail.com
-- LinkedIn: [your-linkedin-url]
-- GitHub: [your-github-username]
+- LinkedIn: [www.linkedin.com/in/david-mcmillan-51674018a]
+- GitHub: [dbmcmillan]
 
 ---
 
 **Built with:** Python 3.12 | Google Gemini | Pandas | yfinance | Scikit-learn
 
-**License:** MIT (or choose another - MIT is most permissive)
+**License:** MIT

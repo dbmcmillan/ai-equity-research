@@ -1,0 +1,19 @@
+Year,Case,Revenue Growth (%),EBIT Growth (%),Net Income Growth (%),Free Cash Flow Growth (%),Rationale
+1,Bear,4,-5,-5,-5,Americas comparable sales remain negative due to product stagnation; $240M tariff impact and heavy markdowns to clear excess inventory severely compress margins.
+1,Base,5,0,0,0,International strength offsets soft Americas traffic; So far this year Revenue is slightly up but other metrics flat or down.
+1,Bull,6,1,1,1,Little indication of major growth in key metrics so far this year. Spring 2026 refresh has not kicked in yet.
+2,Bear,2,2.5,3,2.5,Product refresh fails to regain lost market share from competitors like Vuori/Alo; China growth slows due to macro headwinds; growth settles at low-single digits.
+2,Base,8.5,10,10.5,9.5,Full impact of new product assortment restores Americas to positive comps; Men's category gains traction; operational efficiencies and tariff mitigation strategies restore EBIT margins.
+2,Bull,13,15,17,16,Men's category scales rapidly alongside strong adoption of new women's social/lounge styles; international markets outperform; operating leverage drives significant margin expansion.
+3,Bear,2.5,3,3,3,Company faces structural maturity in North America with commoditized product offerings; reliance on China creates volatility; margins remain permanently compressed.
+3,Base,9,10.5,11,10.5,Sustained international expansion and Men's category growth drive mid-to-high single digit revenue; buyback program supports net income; inventory management normalizes.
+3,Bull,12,13,14,13.5,Brand successfully dominates the global wellness lifestyle market; accelerated store openings in APAC and Europe drive double-digit top-line growth.
+4,Bear,2,2.5,2.5,2.5,"Lululemon operates as a mature ex-growth retailer; limited pricing power due to ""dupe"" competition prevents margin recovery."
+4,Base,8,9,9.5,9.5,Steady state growth achieved through balanced global portfolio; continued discipline in SG&A and moderate store expansion keeps earnings growth slightly above revenue.
+4,Bull,11,12,12.5,12.5,Innovation pipeline creates new category wins (e.g. footwear/accessories); digital ecosystem increases customer lifetime value and retention globally.
+5,Bear,1.5,2,2,2,Market saturation reached in key international hubs; lack of IP protection allows competitors to erode remaining premium positioning.
+5,Base,7,7.5,8,8,Business matures into a steady global cash compounder; China market matures to high-single digit growth; strong cash generation fuels capital returns.
+5,Bull,10,10.5,11,11,"Continued double-digit growth driven by ""Rest of World"" markets entering hyper-growth phase and sustained dominance in premium performance wear."
+TV,Bear,2,2,2,2,Terminal growth assumes inflationary growth only as brand equity fades in a saturated apparel market.
+TV,Base,3,3,3,3,Terminal growth aligns with global GDP and sustained premium brand positioning in a mature athletic apparel sector.
+TV,Bull,4,4,4,4,Terminal growth reflects a best-in-class global brand with enduring pricing power and successfully diversified revenue streams.

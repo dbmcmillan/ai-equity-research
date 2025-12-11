@@ -37,8 +37,8 @@ def summarize_document(ticker, doc_type, file_path, checkpoint_dir="checkpoints"
     chunk_fn = chunk_fn_map[doc_type]
     summary_fn = summary_fn_map[doc_type]
 
-    checkpoint_file = os.path.join(checkpoint_dir, f"{ticker}_{doc_type}_checkpoint.json")
-    output_txt = os.path.join(checkpoint_dir, f"{ticker}_{doc_type}_Summary.txt")
+    checkpoint_file = os.path.join(checkpoint_dir, f"/{doc_type}_Checkpoints/{ticker}_{doc_type}_checkpoint.json")
+    output_txt = os.path.join(checkpoint_dir, f"/{doc_type}_Summaries/{ticker}_{doc_type}_Summary.txt")
     os.makedirs(checkpoint_dir, exist_ok=True)
 
     # Extract pages

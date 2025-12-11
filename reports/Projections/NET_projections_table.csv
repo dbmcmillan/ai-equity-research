@@ -1,0 +1,19 @@
+Year,Case,Revenue Growth (%),EBIT Growth (%),Net Income Growth (%),Free Cash Flow Growth (%),Rationale
+2025,Bear,18.0,15.0,12.0,8.0,Macro headwinds and elongated sales cycles limit revenue expansion; high SBC keeps GAAP losses elevated.
+2025,Base,22.0,50.0,45.0,30.0,Enterprise adoption grows steadily; operational leverage narrows GAAP losses margins start improving.
+2025,Bull,33.0,150.0,130.0,80.0,AI and Workers platform adoption accelerates; premium product mix drives early positive GAAP EBIT.
+2026,Bear,15.0,12.0,10.0,7.0,Competition intensifies; high capex for AI infrastructure tempers FCF expansion.
+2026,Base,24.0,40.0,35.0,35.0,Continued platform consolidation; revenue scales over fixed network costs; GAAP profitability approaches.
+2026,Bull,36.0,100.0,85.0,70.0,Rapid adoption of new offerings; gross margin expansion fuels outsized FCF growth.
+2027,Bear,13.0,10.0,10.0,6.0,Core CDN growth slows; limited monetization of AI investments keeps margins flat.
+2027,Base,23.0,30.0,28.0,40.0,SASE and R2 products mature; FCF margins stabilize as capital intensity normalizes.
+2027,Bull,34.0,60.0,55.0,50.0,Edge AI inference dominance drives high operating leverage; earnings surge.
+2028,Bear,12.0,8.0,8.0,5.0,Growth plateaus; structural unprofitability persists on GAAP basis.
+2028,Base,21.0,25.0,22.0,45.0,Revenue crosses $5B target; FCF growth driven by network optimization.
+2028,Bull,32.0,50.0,45.0,60.0,Widespread enterprise adoption of Zero Trust and Edge Compute; FCF margin expansion peaks.
+2029,Bear,10.0,6.0,5.0,4.0,Legacy product commoditization slows cash flow; revenue growth minimal.
+2029,Base,20.0,20.0,18.0,50.0,Diversified internet utility; profit growth outpaces revenue through disciplined expense management.
+2029,Bull,30.0,40.0,35.0,55.0,Expansion into new TAMs sustains hyper-growth; Cloudflare approaches hyperscaler FCF margins.
+TV,Bear,2.0,2.0,2.0,2.0,Terminal growth assumes inflationary floor; company struggles to maintain competitive differentiation long-term.
+TV,Base,3.5,3.5,3.5,3.5,Terminal growth reflects status as critical internet infrastructure provider with pricing power matching global GDP+.
+TV,Bull,5.5,5.5,5.5,5.5,Terminal growth assumes Cloudflare achieves hyperscaler status with sustained pricing power as well as dominant market share and 30–35% FCF margins.
