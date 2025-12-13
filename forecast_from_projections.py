@@ -3,6 +3,7 @@ import pandas as pd
 from download_financials import download_financials_db
 ticker = "CROX"
 def create_forecast_table(projections_table, all_financials):
+    projections_table = projections_table[projections_table["Case"]=="Base"]
     revenue = all_financials['Total Revenue'].iloc[-1]
     ebit = all_financials['EBIT'].iloc[-1]
     net_income = all_financials['Net Income'].iloc[-1]
@@ -29,20 +30,3 @@ def create_forecast_table(projections_table, all_financials):
         forecast_data['Free Cash Flow'].append(free_cash_flow)
     forecast_table = pd.DataFrame(forecast_data, index=forecast_years)
     return forecast_table
-
-# Test the function
-#Load projections table from csv file
-projections_table = pd.read_csv(f"reports/{ticker}_Projections_Table.csv", index_col=0)
-# Only keep rows where "Case" column is "Base"
-projections_table = projections_table[projections_table['Case'] == 'Base']
-projections_table = projections_table.drop(columns=['Case'])
-projections_table = projections_table[projections_table.index != 'TV']
-
-#Load all financials 
-all_financials = download_financials_db(ticker)
-print(projections_table)
-forecast_table = create_forecast_table(projections_table, all_financials)
-print(forecast_table)
-#Save forecast table to CSV for verification
-forecast_table.to_csv(f"reports/{ticker}_Forecast_Table.csv")
-print(f"Forecast table exported to: reports/{ticker}_Forecast_Table.csv")

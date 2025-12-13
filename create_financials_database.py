@@ -5,7 +5,7 @@ import sqlite3
 db_name = "financials_database.db"
 ticker_list = ["CROX", "DECK", "BIRK", "LULU", "ONON", "NKE", "UAA", 
            "RTX", "GD", "LMT", "NOC", "BA", "LHX", 
-           "NVDA", "AMD", "INTC", "SPY", "AAPL", "MSFT", "GOOGL", "AMZN", "BA", "GD", "NET"]
+           "NVDA", "AMD", "INTC", "SPY", "AAPL", "MSFT", "GOOGL", "AMZN", "BA", "GD", "NET", "RHI", "MAN", "KFY", "KFRC"]
 def create_financials_dataframe(ticker_list):
     financials = pd.DataFrame()
     for ticker in ticker_list:

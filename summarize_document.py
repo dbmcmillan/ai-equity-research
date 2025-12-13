@@ -37,12 +37,12 @@ def summarize_document(ticker, doc_type, file_path, checkpoint_dir="checkpoints"
     chunk_fn = chunk_fn_map[doc_type]
     summary_fn = summary_fn_map[doc_type]
 
-    checkpoint_file = os.path.join(checkpoint_dir, f"/{doc_type}_Checkpoints/{ticker}_{doc_type}_checkpoint.json")
-    output_txt = os.path.join(checkpoint_dir, f"/{doc_type}_Summaries/{ticker}_{doc_type}_Summary.txt")
+    checkpoint_file = os.path.join(checkpoint_dir, f"{doc_type}_Checkpoints/{ticker}_{doc_type}_checkpoint.json")
+    output_txt = os.path.join(checkpoint_dir, f"{doc_type}_Summaries/{ticker}_{doc_type}_Summary.txt")
     os.makedirs(checkpoint_dir, exist_ok=True)
 
     # Extract pages
-    if doc_type in ["10K", "10Q"]:
+    if doc_type in ["10K", "10Q", "earnings"]:
         pages = parser.extract_text_by_page(file_path)
     else:
         pages = parser.extract_text_from_docx(file_path).split("\n\n")

@@ -7,7 +7,7 @@ import os
 # --- Configuration ---
 tickers = ["CROX", "DECK", "BIRK", "LULU", "ONON", "NKE", "UAA", 
            "RTX", "GD", "LMT", "NOC", "BA", "LHX", 
-           "NVDA", "AMD", "INTC", "SPY", "AAPL", "MSFT", "GOOGL", "AMZN", "BA", "GD", "NET"]
+           "NVDA", "AMD", "INTC", "SPY", "AAPL", "MSFT", "GOOGL", "AMZN", "BA", "GD", "NET", "RHI", "MAN", "KFY", "KFRC"]
 
 DATABASE_FILE = 'stock_prices.db'
 TABLE_NAME = 'daily_prices'

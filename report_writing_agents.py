@@ -201,8 +201,6 @@ Format the report in markdown format with appropriate headings and subheadings. 
 
     return response.text.strip()  # type: ignore
 
-
-
 def master_agent(first_two_sections, second_two_sections, third_two_sections, remaining_sections, additional_notes, today_date):
     """
     Creates an introduction to an equity research report based on summaries of 10K, 10Q, earnings call, financial statements, and projections.
