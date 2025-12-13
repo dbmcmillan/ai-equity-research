@@ -16,6 +16,7 @@
 | **Risk Level** | **High** |
 
 **Investment Rationale**
+
 We initiate coverage on Crocs, Inc. (CROX) with an **Strong Buy** rating and a 12-month price target of **$180**. Our conviction stems from the assessment that the market is severely over-penalizing CROX for the integration failures and significant impairment charges associated with the HEYDUDE acquisition.
 
 The current valuation assumes a worst-case scenario that ignores the robust reality of the core business. The Crocs brand remains a highly profitable "cash machine," protected by a narrow economic moat derived from its proprietary Croslite™ material and distinct brand identity. While management’s past capital allocation—specifically the HEYDUDE acquisition and share buybacks at inflated valuations—has been suboptimal, the company’s current strategy of aggressive debt reduction and share repurchases at depressed levels is smart capital allocation.
@@ -95,6 +96,7 @@ Our base case assumes a revenue decline in 2025 reflecting Q4 guidance, followed
 *\*Note: Net Income projections remain pressured in our model due to conservative accounting for potential further write-downs and amortization, yet FCF remains robust.*
 
 **Scrutiny of Management & Capital Allocation**
+
 We remain unimpressed with the company’s historical capital allocation. The HEYDUDE acquisition appears to have been a poor use of capital, compounded by stock buybacks executed at valuations nearly double the current price. However, the current strategy of cutting staff to pay down debt and buying back shares at these depressed levels is financially rational, albeit operationally risky regarding employee morale.
 
 ---
@@ -118,9 +120,11 @@ Our valuation implies that CROX is significantly mispriced. The market is pricin
 4.  **Buybacks:** Continued aggressive repurchases reducing share count.
 
 **Is CROX a value trap?**
+
 In the past 5 years CROX has seen 3 major declines in its stock price - in late 2021, mid 2023, and the current decline (since mid 2024). The first decline was nearly 80%. At the bottom (mid 2022), investors would have been paying about $3 billion in equity value for a company that was about to go on to generate $2.4 billion in free cash flow in the coming 3 years (2023-2025). The company quickly rebounded to a market cap of nearly $9 billion by April 2023. Then CROX once again lost nearly 50% of its value, dropping to a market cap below $5 billion by November 2023. The company was back at a valuation of $9.5 billion by June 2024. Now the market cap has once again dropped to below $4 billion, for a company that will generate $4 billion in Sales in 2023 with gross margins near 60%. So far, CROX share price volatility has presented opportunities for investors to buy into the stock at a big discount. As hated as the stock is now, the following chart shows how it's actually outperformed many of its competitors (BIRK, NKE, and LULU) over the last 5 years. It has underperformed DECK and SPY, but actually outperformed SPY for most of the five year period in question. It presents an opportunity to investors who are able to evaluate when the stock is trading at a discount vs a premium.
 
-*Insert CROX vs Competitors Chart*
+<img width="1402" height="1230" alt="image" src="https://github.com/user-attachments/assets/3674a956-f7e9-484a-a1ee-adf3bf884472" />
+
 
 ### 5b. Relative Valuation Analysis
 
@@ -162,9 +166,11 @@ We compared Crocs against a basket of peers including Deckers (DECK), Birkenstoc
 
 ### 7. ESG Considerations
 
-**Environmental:** Crocs has committed to "Net Zero 2040." Achieving this with a polymer-based product (Croslite™) is challenging. The concentration of manufacturing in Asia ties the company's footprint to the regional energy mix.
-**Social:** Labor practices in the third-party supply chain are a standard risk. Internally, the strategy of cutting staff and capping raises to fund buybacks and debt repayment raises social governance concerns regarding workforce stability.
-**Governance:** Capital allocation has been questionable (HEYDUDE acquisition). Furthermore, the aggressive tax strategies and shareholder lawsuits alleging misleading statements suggest a need for higher governance scrutiny.
+1. **Environmental:** Crocs has committed to "Net Zero 2040." Achieving this with a polymer-based product (Croslite™) is challenging. The concentration of manufacturing in Asia ties the company's footprint to the regional energy mix.
+
+2. **Social:** Labor practices in the third-party supply chain are a standard risk. Internally, the strategy of cutting staff and capping raises to fund buybacks and debt repayment raises social governance concerns regarding workforce stability.
+
+3. **Governance:** Capital allocation has been questionable (HEYDUDE acquisition). Furthermore, the aggressive tax strategies and shareholder lawsuits alleging misleading statements suggest a need for higher governance scrutiny.
 
 ---
 
