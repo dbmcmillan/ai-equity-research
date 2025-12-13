@@ -153,6 +153,7 @@ Investors must weigh the upside against significant risks:
 *   **Environmental (Low Risk):** As a service firm, the environmental footprint is minimal. Focus areas include energy efficiency in offices and sustainable procurement.
 
 The ESG risks help to explain RHI's current bargain basement valuation. The market may be showing fear of a possible loss in court (which could cost the company in the range of $200-500 million), but not correctly evaluating the probability of a settlement in the $10-$50 million range (about 75% likely based on California legal history).
+
 ---
 
 ## 8. Analyst Note on Recent Earnings (Q3 2025)
