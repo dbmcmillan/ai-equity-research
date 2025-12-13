@@ -21,6 +21,24 @@ This system automates the fundamental equity research workflow that typically ta
 
 📊 **[Lockheed Martin (LMT) Equity Research Report](reports/LMT_Equity_Research_Report.md)** - Full analysis demonstrating system capabilities
 
+## Research Process & Methodology
+
+### Automated Pipeline Architecture
+
+This system demonstrates a production-quality research workflow:
+
+1. **Document Ingestion** → Parse 10-Ks, 10-Qs, earnings transcripts (see `parser.py`)
+2. **Financial Analysis** → Extract metrics from databases (see `download_financials.py`)
+3. **AI Summarization** → Generate executive summaries with checkpoint recovery (see `summarize_document.py`)
+4. **Projection Modeling** → Create DCF scenarios (see `projection_agent.py`)
+5. **Report Generation** → Automated multi-section writing (see `report_writing_agents.py`)
+
+**Key Features:**
+- Checkpoint system enables recovery from any pipeline stage
+- Parallel processing for efficiency
+- Modular architecture allows component-level iteration
+- Production error handling and logging
+
 ## 🛠️ Technology Stack
 
 - **Python 3.12**: Core programming language
@@ -116,32 +134,63 @@ Final Report (Markdown)
 
 ## 📁 Project Structure
 ```
-ai-equity-research/
-├── main.py                          # Main orchestration script
+markdownai-equity-research/
+├── main.py                          # Pipeline orchestration - coordinates all agents
 ├── requirements.txt                 # Python dependencies
 ├── .env                            # API keys (not tracked)
 ├── .gitignore                      # Git ignore rules
 │
-├── parser.py                       # PDF/Word document parsing
-├── summarizer.py                   # LLM-based summarization
-├── summarize_document.py           # Document processing pipeline
-├── financial_statement_agent.py    # Financial data extraction
-├── projection_agent.py             # Forward projection generation
-├── report_writing_agents.py        # Report section generation
+├── Document Processing
+│   ├── parser.py                    # PDF/Word extraction (pymupdf, python-docx)
+│   ├── summarizer.py                # LLM-based chunk summarization (Gemini)
+│   ├── summarize_document.py        # Multi-document pipeline with checkpointing
+│   └── financial_statement_agent.py # Extract material facts from financials
 │
-├── download_financials.py          # Financial data retrieval
-├── financial_metrics.py            # WACC, Beta calculation
-├── project_cash_flow.py            # DCF valuation logic
-├── sensitivity_table.py            # Valuation sensitivity analysis
-├── calculate_multiples.py          # Peer comparable multiples
+├── Financial Analysis
+│   ├── download_financials.py       # Retrieve statements from local SQLite DB
+│   ├── financial_metrics.py         # Calculate WACC, Beta, cost of capital
+│   ├── projection_agent.py          # Generate 5-year forecasts (3 scenarios)
+│   ├── project_cash_flow.py         # DCF valuation engine
+│   ├── sensitivity_table.py         # Terminal growth × WACC sensitivity
+│   └── calculate_multiples.py       # Peer comparable analysis (P/E, EV/EBITDA)
 │
-├── create_stock_price_database.py  # Build price database
-├── create_financials_database.py   # Build financials database
-├── stock_history.py                # Stock price utilities
+├── Data Infrastructure
+│   ├── create_stock_price_database.py   # Build/update price history DB
+│   ├── create_financials_database.py    # Build/update financials DB
+│   └── stock_history.py                 # Price data utilities
 │
-├── checkpoints/                    # Intermediate summaries (not tracked)
-├── reports/                        # Input docs & output reports
-└── README.md                       # This file
+├── Report Generation
+│   └── report_writing_agents.py     # Multi-agent report writer (intro, thesis, risks, etc.)
+│
+├── checkpoints/                     # Intermediate processing stages
+│   ├── 10K_Checkpoints/            # Chunked 10-K summaries (JSON)
+│   ├── 10Q_Checkpoints/            # Chunked 10-Q summaries (JSON)
+│   ├── Earnings_Checkpoints/       # Chunked earnings summaries (JSON)
+│   ├── 10K_Summaries/              # Final 10-K executive summaries
+│   ├── 10Q_Summaries/              # Final 10-Q executive summaries
+│   ├── Earnings_Summaries/         # Final earnings executive summaries
+│   ├── Financials_Summaries/       # Financials analysis summaries
+│   ├── Drivers_Summaries/          # Financial drivers analysis
+│   ├── Report_Sections/            # Individual report sections (pre-merge)
+│   └── Sensitivity_Tables/         # Valuation sensitivity matrices
+│
+├── reports/                         # Source documents & outputs
+│   ├── 10K/                        # Input: Annual reports
+│   ├── 10Q/                        # Input: Quarterly reports
+│   ├── Earnings/                   # Input: Earnings call transcripts
+│   ├── Analyst_Notes/              # Input: Manual analyst commentary
+│   ├── showcase/                   # Output: Final equity research reports
+│   │   ├── RHI_Equity_Research_Report.md
+│   │   ├── CROX_Equity_Research_Report.md
+│   │   └── LULU_Equity_Research_Report.md
+│   ├── Projections/                # Generated forecast tables
+│   ├── Forecast_Tables/            # Base/Bull/Bear scenarios
+│   ├── Valuation_Metrics/          # DCF output (JSON)
+│   ├── Competitor_Multiples/       # Peer analysis (CSV)
+│   └── Visualizations/             # Charts (HTML, PNG)
+│
+└── README.md                        # Documentation
+
 ```
 
 ## 🎓 Background & Motivation
@@ -163,7 +212,6 @@ This project was developed as part of my transition from business intelligence/d
 
 ## 🔮 Future Enhancements
 
-- [ ] Add relative valuation methods (P/E, EV/Sales comparables)
 - [ ] Integrate real-time news sentiment analysis
 - [ ] Build web interface for non-technical users
 - [ ] Add Monte Carlo simulation for valuation ranges

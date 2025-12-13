@@ -20,12 +20,12 @@ __pycache__/
 *.sqlite3
 
 # Checkpoints and temporary files
-checkpoints/
+
 *.tmp
 
 # Reports (PDFs/Word docs are large - optionally keep some)
-reports/*.pdf
-reports/*.docx
+reports/Equity_Research_Reports/*.pdf
+reports/Equity_Research_Reports/*.docx
 # But DO keep CSV reports (for now excluded)
 reports/*.csv
 reports/*.json
@@ -38,7 +38,17 @@ reports/*.md
 .DS_Store
 Thumbs.db
 
-# Jupyter Notebooks (if you add them later)
+# Jupyter Notebooks
 .ipynb_checkpoints/
 *.ipynb
+
+# Keep folder structure but ignore checkpoint contents
+checkpoints/**/*.json
+checkpoints/**/*.txt
+!checkpoints/**/.gitkeep
+
+# But DO include the summaries as examples
+!checkpoints/10K_Summaries/*.txt
+!checkpoints/10Q_Summaries/*.txt
+!checkpoints/Earnings_Summaries/*.txt
 
