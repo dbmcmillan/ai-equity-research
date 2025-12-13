@@ -87,9 +87,11 @@ The market has priced RHI for a depression, not a recession. The stock is down ~
 
 **Catalyst Deep Dive:**
 1.  **Interest Rate Reversal:** The Federal Reserve's tightening cycle decimated temporary hiring. As rates come down, the cost of capital for RHI's clients drops, unfreezing deferred projects. The chart below shows RHI's stock price vs the 10 year treasury yield, demonstrating the sensitivity of the company's earnings and cash flows (and consequently share price) to interest rates. Red dots show dates that the FOMC announced interest rate increases.
-  *Insert plotly chart here*
-2.  **The "White-Collar" Reshoring Wave:** Reshoring is not just about factory floors. It requires a massive logistical and administrative tail. Channel checks indicate that as manufacturing investments go live, demand for finance, HR, and supply chain roles—RHI's bread and butter—will surge.
-3.  **Immigration & Labor Supply:** A tightening of U.S. immigration policy, particularly regarding H1B and skilled visas, creates a scarcity of domestic talent. In a labor-constrained environment, RHI’s proprietary database of pre-vetted domestic professionals becomes a premium asset, driving both volume and pricing power.
+
+<img width="1460" height="1205" alt="image" src="https://github.com/user-attachments/assets/4c79f5ff-5d27-4e5f-bcc5-ceb137f457df" />
+
+3.  **The "White-Collar" Reshoring Wave:** Reshoring is not just about factory floors. It requires a massive logistical and administrative tail. Channel checks indicate that as manufacturing investments go live, demand for finance, HR, and supply chain roles—RHI's bread and butter—will surge.
+4.  **Immigration & Labor Supply:** A tightening of U.S. immigration policy, particularly regarding H1B and skilled visas, creates a scarcity of domestic talent. In a labor-constrained environment, RHI’s proprietary database of pre-vetted domestic professionals becomes a premium asset, driving both volume and pricing power.
 
 **Valuation and Scenario Analysis**
 Our DCF model yields a **Base Case of $51 per share**, implying the stock is significantly undervalued.
@@ -111,7 +113,8 @@ Our DCF model yields a **Base Case of $51 per share**, implying the stock is sig
 
 Relative to peers, RHI trades at competitive multiples (EV/Sales of 0.74x vs. peers up to 1.14x) despite superior brand equity and the higher-margin Protiviti segment. RHI is not alone in its poor performance over the last few years. The following chart shows how $100 invested 5 years ago would have performed in RHI, its competitors, and SPY. Like RHI, MAN and KFRC (the companies most similar to RHI) hit 5 year lows in November 2025 before rebounding slightly. The fact that all three stocks behaved similarly over the 5 year period and also rebounded at nearly identical times strengthens the thesis of a cyclical turnaround in the industry. It also shows that it's likely not poor company performance that has led RHI lower. Rather, the company has been fighting headwinds that are ubiqitous across the industry.
 
-*Insert chart of RHI and 3 competitors vs SPY over 5 years*
+<img width="1144" height="1214" alt="image" src="https://github.com/user-attachments/assets/10db0088-8b56-44b1-b3dc-6829c1ed47e4" />
+
 ---
 
 ## 5. Financial Analysis
