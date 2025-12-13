@@ -120,7 +120,8 @@ Our valuation implies that CROX is significantly mispriced. The market is pricin
 **Is CROX a value trap?**
 In the past 5 years CROX has seen 3 major declines in its stock price - in late 2021, mid 2023, and the current decline (since mid 2024). The first decline was nearly 80%. At the bottom (mid 2022), investors would have been paying about $3 billion in equity value for a company that was about to go on to generate $2.4 billion in free cash flow in the coming 3 years (2023-2025). The company quickly rebounded to a market cap of nearly $9 billion by April 2023. Then CROX once again lost nearly 50% of its value, dropping to a market cap below $5 billion by November 2023. The company was back at a valuation of $9.5 billion by June 2024. Now the market cap has once again dropped to below $4 billion, for a company that will generate $4 billion in Sales in 2023 with gross margins near 60%. So far, CROX share price volatility has presented opportunities for investors to buy into the stock at a big discount. As hated as the stock is now, the following chart shows how it's actually outperformed many of its competitors (BIRK, NKE, and LULU) over the last 5 years. It has underperformed DECK and SPY, but actually outperformed SPY for most of the five year period in question. It presents an opportunity to investors who are able to evaluate when the stock is trading at a discount vs a premium.
 
-*Insert CROX vs Competitors Chart*
+<img width="1402" height="1230" alt="image" src="https://github.com/user-attachments/assets/3674a956-f7e9-484a-a1ee-adf3bf884472" />
+
 
 ### 5b. Relative Valuation Analysis
 
