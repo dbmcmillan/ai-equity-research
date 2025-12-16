@@ -45,8 +45,8 @@ This system demonstrates a production-quality research workflow:
 - **Google Gemini API**: LLM for document summarization and report generation
 - **Pandas/NumPy**: Financial data manipulation and analysis
 - **yfinance**: Historical stock price and financial statement data
-- **SQLite**: Local storage for price/financials databases
-- **Scikit-learn/Statsmodels**: Time-series forecasting and statistical modeling
+- **SQLite3**: Local storage for price/financials databases
+- **Plotly**: Interactive charts/visuals
 
 ## 📦 Installation
 
