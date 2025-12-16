@@ -19,7 +19,7 @@ This system automates the fundamental equity research workflow that typically ta
 
 ### Sample Output
 
-📊 **[Lockheed Martin (LMT) Equity Research Report](reports/LMT_Equity_Research_Report.md)** - Full analysis demonstrating system capabilities
+📊 **[[Robert Half International (RHI) Equity Research Report](reports/showcase/RHI_Equity_Research_Report.md)]** - Full analysis demonstrating system capabilities
 
 ## Research Process & Methodology
 
